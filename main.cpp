@@ -2,6 +2,7 @@
 using namespace std;
 
 int merrPiket();
+bool validoPiket(int p);
 
 int main(){
 
