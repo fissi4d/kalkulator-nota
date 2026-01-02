@@ -3,6 +3,11 @@ using namespace std;
 
 int llogaritNoten(int p);
 int merrPiket();
+bool validoPiket(int p);
+bool validoPiket(int p) {
+    return true;
+}
+
 
 int main(){
 
