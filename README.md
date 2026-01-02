@@ -26,7 +26,8 @@ Kodi është ndarë në 4 funksione kryesore, ku secili student ka implementuar 
 ## Pamja e Ekzekutimit
 Më poshtë mund të shihni një shembull se si duket programi kur ekzekutohet në terminal:
 
-<img width="328" height="147" alt="image" src="https://github.com/user-attachments/assets/5c836ea3-380c-45d1-97af-f7e1d3010d38" />
+<img width="329" height="157" alt="image" src="https://github.com/user-attachments/assets/0d886f00-2f9c-4163-b144-5b8f30696da2" />
+
 
 ---
 
