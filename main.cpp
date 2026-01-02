@@ -3,6 +3,10 @@ using namespace std;
 
 int merrPiket();
 bool validoPiket(int p);
+bool validoPiket(int p) {
+    return true;
+}
+
 
 int main(){
 
