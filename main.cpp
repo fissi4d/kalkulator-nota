@@ -21,10 +21,11 @@ int merrPiket(){
   cin>>p;
   return p;
 }
-bool validoPiket(int p) {
-    if (p < 0) return false;
-     if (p > 100) return false;
-    return true;
+bool validoPiket(int piket) {
+    if (piket >= 0 && piket <= 100) {
+        return true;
+    }
+    return false;
 }
 
 void shfaqRezultatin(int n){
