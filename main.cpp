@@ -17,6 +17,7 @@ int llogaritNoten(int p){
 
 int merrPiket(){
   int p;
+  cout<<"Shkruani numrin e pikeve: ";
   cin>>p;
   return p;
 }
