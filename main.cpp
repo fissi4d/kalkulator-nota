@@ -14,7 +14,10 @@ int main()
   cout<<"--- Llogaritesi i Notave ---"<<endl;
 
   piket = merrPiket();
-  
+
+  nota = 0;
+  nota = llogaritNoten(piket);
+
 	return 0;
 }
 
