@@ -17,10 +17,12 @@ int main()
   piket = merrPiket();
 	if(validoPiket(piket)) {
   		nota = llogaritNoten(piket);
+
+		shfaqRezultatin(nota);
 	}else{
 		cout << "Gabim: Piket duhet te jene 0-100." << endl;
     }
-	
+	return 0;
 }
 
 int llogaritNoten(int p)
@@ -70,7 +72,7 @@ bool validoPiket(int piket)
 void shfaqRezultatin(int n)
 {
 	cout << "Nota juaj eshte: " << n << endl;
-	if (nota == 5)
+	if (n == 5)
 	{
 		cout << "Rezultati: Ngel - Nota 5" << endl;
 	}
