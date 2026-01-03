@@ -12,6 +12,9 @@ int main()
   int nota;
 
   cout<<"--- Llogaritesi i Notave ---"<<endl;
+
+  piket = merrPiket();
+  
 	return 0;
 }
 
