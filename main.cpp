@@ -10,15 +10,17 @@ int main()
 {
   int piket;
   int nota;
+  nota = 0;
 
   cout<<"--- Llogaritesi i Notave ---"<<endl;
 
   piket = merrPiket();
-
-  nota = 0;
-  nota = llogaritNoten(piket);
-
-	return 0;
+	if(validoPiket(piket)) {
+  		nota = llogaritNoten(piket);
+	}else{
+		cout << "Gabim: Piket duhet te jene 0-100." << endl;
+    }
+	
 }
 
 int llogaritNoten(int p)
