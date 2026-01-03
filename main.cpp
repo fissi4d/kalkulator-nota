@@ -8,7 +8,13 @@ void shfaqRezultatin(int n);
 
 int main()
 {
+  int piket;
+  int nota;
 
+  cout<<"--- Llogaritesi i Notave ---"<<endl;
+
+  piket = merrPiket();
+  
 	return 0;
 }
 
