@@ -12,6 +12,7 @@ int main(){
 }
 
 int llogaritNoten(int p){
+	if (p < 0) return false;
 	return 5; 
 }
 
