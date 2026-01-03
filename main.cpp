@@ -10,6 +10,7 @@ int main(){
 }
 
 int llogaritNoten(int p){
+	if (p < 50) return 5;
 	return 5; 
 }
 
