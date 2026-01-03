@@ -23,6 +23,7 @@ int merrPiket(){
 }
 bool validoPiket(int p) {
     if (p < 0) return false;
+     if (p > 100) return false;
     return true;
 }
 
