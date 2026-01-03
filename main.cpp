@@ -24,4 +24,10 @@ bool validoPiket(int p) {
 
 void shfaqRezultatin(int n){
 	cout << "Nota juaj eshte: " << n << endl;
+	if (nota == 5) {
+		cout << "Rezultati: Ngel - Nota 5" << endl;
+	}
+	else {
+		cout << "Rezultati: Kaloi - Nota " << n << endl;
+	}
 }
