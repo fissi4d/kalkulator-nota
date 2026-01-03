@@ -16,7 +16,10 @@ int llogaritNoten(int p){
 }
 
 int merrPiket(){
-  return 0;
+  int p;
+  cout<<"Shkruani numrin e pikeve: ";
+  cin>>p;
+  return p;
 }
 bool validoPiket(int p) {
     return true;
